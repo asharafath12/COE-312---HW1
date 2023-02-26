@@ -1,5 +1,5 @@
 
-public class Player{
+public class Player {
 	
 	private Chamber currentChamber;
 	
@@ -69,5 +69,6 @@ public class Player{
 	{
 		System.out.println(currentChamber.getChamberDescription());
 	}
+	
 
 }

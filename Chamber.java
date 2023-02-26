@@ -7,6 +7,7 @@ public abstract class Chamber {
 	private Characters Professor;
 	private int numObjects;
 	
+	
 	private Chamber northChamber;
 	private Chamber southChamber;
 	private Chamber eastChamber;
@@ -89,5 +90,9 @@ public abstract class Chamber {
 		Professor = professor;
 	}
 	
+	public void lookAround()
+	{
+		System.out.println(chamberDescription);
+	}
 	
 }
